@@ -1,0 +1,49 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: cursive;
+    background-image: url('assets/images/pexels-photo-346529.webp'); 
+    background-size: cover;
+    background-position: center;
+    color: lavender;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: 8px; 
+}
+
+.container {
+    text-align: center;
+}
+
+.info-box {
+    background: rgba(255, 255, 255, 0.1); 
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    margin: auto;
+    color: mintcream;
+}
+
+.title {
+    font-size: 3.2rem;
+    color: #031403;
+}
+
+.info-box p {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    padding-bottom: 1px;
+}
+
+@media (max-width: 768px) {
+    .title {
+        font-size: 1rem;
+    }
+}
